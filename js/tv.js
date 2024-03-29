@@ -107,7 +107,7 @@ $btn.on('click', function () {
 var $tv = $('.tv'),
 $screen = $('.screen-content'),
 $btn = $('.js-shtd-btn7'),
-videoHtml7 = '<iframe src="https://vsalema.github.io/RTP1/" width="880" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>';
+videoHtml7 = '<iframe src="https://popcdn.day/play.php?stream=RTP_INT" width="880" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>';
 
 $btn.on('click', function () {
   if ($tv.addClass('_off')) {
@@ -270,3 +270,4 @@ $btn.on('click', function () {
     $screen.empty();
   }
 });
+
