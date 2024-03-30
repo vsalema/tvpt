@@ -488,14 +488,7 @@ a {
   }
 }
 #monitor2 {
-	
-	position: relative;
-	 
-	margin: -0%;
-	padding: 2% 2% 4% 2%; 
-	}
-@media screen and (min-width: 800px) {
-  .container {
-    margin: 1em 2em;
-  }
+@media screen and (max-width: 1000px /* Largeur d'écran que tu veux */) {
+position: relative;
+display: flex;
 }
