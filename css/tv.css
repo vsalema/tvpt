@@ -482,13 +482,6 @@ a {
   text-decoration: none;
   color: aliceblue;
 }
-@media (min-width: 960px) {
-  #monitor2 {
-    
-  }
-}
 #monitor2 {
-@media screen and (max-width: 1000px /* Largeur d'écran que tu veux */) {
-position: relative;
-display: flex;
+  display: flex;
 }
