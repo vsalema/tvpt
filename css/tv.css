@@ -485,3 +485,7 @@ a {
 #monitor2 {
   display: flex;
 }
+@media all and (min-width: 960px) {
+	#monitor2 {
+		
+	}
